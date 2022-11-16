@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Interactibles">
+        <button onclick="SellCookie()" class="InteractibleButton">Sell Cookie</button>
+        <button onclick="CollectCookie()" class="InteractibleButton">Bake Cookie</button>
+    </div>
+
+    <div class="Purchasables">
+        <button onclick="PurchaseAutoClicker()" class="PurchaseButton">Auto Clicker - 50 Money</button>
+        <button onclick="PurchaseCPC()" class="PurchaseButton">+1 Cookie Per Click - 200 Money</button>
+        <button onclick="PurchaseAutoSell()" class="PurchaseButton">Auto Sell - 100 Money</button>
+        <button onclick="PurchaseCookieStore()" class="PurchaseButton">Cookie Store - 500 Money</button>
+    </div>
+
+    <div class="Stats">
+        <h6 class="StatsText" id="Cookies">0 Cookies</h6>
+        <h6 class="StatsText" id="Money">0 Money</h6>
+    </div>
+
+    <div class="Title">
+        <h6 class="Title">Cookie Clicker</h6>
+    </div>
+
+    <div class="Cookie">
+        <img class="Cookie" onclick="CollectCookie()" src="Cookie.png" alt="Cookie">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

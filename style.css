@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+div.Interactibles {
+    height: 40px;
+    width: 50%;
+    position: relative;
+    left: 49%;
+    top: 10px;
+}
+
+button.InteractibleButton {
+    background-color: rgb(255, 155, 0);
+    border: none;
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: right;
+    font-size: inherit;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+}
+
+div.Stats {
+    height: 100px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 500px;
+}
+
+h6.StatsText {
+    position: relative;
+    font-size: 40px;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 0px;
+}
+
+div.Title {
+    height: 60px;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    top: 40px;
+}
+
+h6.Title {
+    position: relative;
+    font-size: 40px;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 0px;
+}
+
+img.Cookie {
+    width: 300;
+    height: 300;
+    position: fixed;
+    left: 42%;
+    top: 250px;
+}
+
+div.Purchasables {
+    height: 40px;
+    width: 300px;
+    position: relative;
+    left: 2%;
+    top: 10px;
+}
+
+button.PurchaseButton {
+    background-color: rgb(255, 155, 0);
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: inherit;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+}
